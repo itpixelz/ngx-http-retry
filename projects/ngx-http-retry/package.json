@@ -1,6 +1,6 @@
 {
   "name": "@umardraz/ngx-http-retry",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Angular HTTP client wrapper with configurable retry logic.",
   "author": "Umar Draz <umar.draz001@gmail.com>",
   "license": "MIT",
@@ -10,8 +10,8 @@
   },
   "keywords": ["angular", "http", "retry", "rxjs", "http-client"],
   "peerDependencies": {
-    "@angular/common": "^17.3.0",
-    "@angular/core": "^17.3.0"
+    "@angular/common": "^16.0.0 || ^17.0.0",
+    "@angular/core": "^16.0.0 || ^17.0.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"

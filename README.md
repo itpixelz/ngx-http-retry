@@ -1,8 +1,8 @@
 # NgxHttpRetryService
 
-[![npm version](https://img.shields.io/npm/v/ngx-http-retry-service.svg)](https://www.npmjs.com/package/ngx-http-retry-service)
-[![npm downloads](https://img.shields.io/npm/dm/ngx-http-retry-service.svg)](https://www.npmjs.com/package/ngx-http-retry-service)
-[![license](https://img.shields.io/npm/l/ngx-http-retry-service.svg)](LICENSE)
+[![npm version](https://img.shields.io/npm/v/ngx-http-retry.svg)](https://www.npmjs.com/package/ngx-http-retry)
+[![npm downloads](https://img.shields.io/npm/dm/ngx-http-retry.svg)](https://www.npmjs.com/package/ngx-http-retry)
+[![license](https://img.shields.io/npm/l/ngx-http-retry.svg)](LICENSE)
 
 An Angular service that provides HTTP methods (`GET`, `POST`, `PUT`, `DELETE`) with built-in retry logic using RxJS's `retry` operator.
 
@@ -44,7 +44,7 @@ npm install ngx-http-retry
 Import `NgxHttpRetryService` into your Angular component or service:
 
 ```typescript
-import { NgxHttpRetryService } from 'ngx-http-retry-service';
+import { NgxHttpRetryService } from 'ngx-http-retry';
 
 @Component({
   // ...
@@ -316,7 +316,7 @@ Yes, any interceptors configured with `HttpClient` are applied.
 
 ## Contributing
 
-Contributions are welcome! Please submit issues or pull requests on [GitHub](https://github.com/yourusername/ngx-http-retry-service).
+Contributions are welcome! Please submit issues or pull requests on [GitHub](https://github.com/itpixelz/ngx-http-retry).
 
 ## License
 
