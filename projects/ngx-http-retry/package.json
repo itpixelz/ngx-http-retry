@@ -1,5 +1,5 @@
 {
-  "name": "ngx-http-retry",
+  "name": "@umardraz/ngx-http-retry",
   "version": "1.0.0",
   "description": "Angular HTTP client wrapper with configurable retry logic.",
   "author": "Umar Draz <umar.draz001@gmail.com>",
